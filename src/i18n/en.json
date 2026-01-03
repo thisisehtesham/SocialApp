@@ -1,0 +1,51 @@
+{
+  "home_title": "Social App",
+  "profile": "My Profile",
+  "upload": "Upload",
+  "logout": "Logout",
+  "login": "Login",
+  "search": "Search captions...",
+  "search_btn": "Search",
+  "newest": "Newest",
+  "oldest": "Oldest",
+  "popular": "Most Liked",
+  "no_posts": "No posts found.",
+  "error_loading": "Error loading posts. Please try again later.",
+
+  "post_placeholder": "What's on your mind?",
+  "photo": "Photo",
+  "post": "Post",
+  "posting": "Posting...",
+  "sidebar": {
+    "profile_views": "Profile viewers",
+    "post_impressions": "Post impressions",
+    "recent": "Recent",
+    "groups": [
+      "👪 Java Developers Community",
+      "👪 React Js & React Native",
+      "👪 Front End Developer Group",
+      "👪 Elevate your Node.js expertise",
+      "👪 Software Engineering Group",
+      "👪 Artificial Intelligence, Machine Learning"
+    ]
+  },
+  "widget": {
+    "social_news": "Social News",
+    "top_courses": "Today's top courses",
+    "readers": "readers",
+    "social_news_items": [
+      { "title": "Slaying Job Search Fees", "time": "6d ago", "readers": "4,55" },
+      { "title": "A Two Pizza rule for eating", "time": "2d ago", "readers": "6,12" },
+      { "title": "How to handle a workplace breakup", "time": "3d ago", "readers": "4,45" },
+      { "title": "Flex leave is the new flexi", "time": "4d ago", "readers": "3,55" },
+      { "title": "Shorter hour boost productivity", "time": "1d ago", "readers": "4,55" }
+    ],
+    "course_items": [
+      { "title": "Leading with a Heavy Heat", "author": "Kay Coly" },
+      { "title": "Building Resilience", "author": "Tatiana Kolovau" },
+      { "title": "Critical Thinking for better judgement", "author": "3d ago • 4,45 readers" },
+      { "title": "Flexi leave is the new flexi", "author": "4d ago • 3,55 readers" },
+      { "title": "Shorter hour boost productivity", "author": "1d ago • 4,55 readers" }
+    ]
+  }
+}
