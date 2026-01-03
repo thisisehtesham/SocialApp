@@ -25,15 +25,11 @@ export default async function LocaleLayout({ children, params }) {
   const dict = await getDictionary(locale);
 
   return (
-    <html lang={locale} className="bg-[#f2f1ed]" suppressHydrationWarning>
-      <body suppressHydrationWarning>
-        <AuthContext>
-          <Header dict={dict} currentLocale={locale} />
-          <div className="max-w-7xl mx-auto px-4 py-4 flex gap-4">
-            {children}
-          </div>
-        </AuthContext>
-      </body>
-    </html>
+    <AuthContext>
+      <Header dict={dict} currentLocale={locale} />
+      <div className="max-w-7xl mx-auto px-4 py-4 flex gap-4 bg-[#f2f1ed]">
+        {children}
+      </div>
+    </AuthContext>
   );
 }
